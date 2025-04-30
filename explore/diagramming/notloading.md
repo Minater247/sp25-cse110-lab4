@@ -1,0 +1,2 @@
+To note that I ***am trying this on the due date***:
+I don't know why this won't load. Every time I try to load drawio, it just says "Opening 'the file name' failed. Open with default text/binary editor?", and refuses to open the image. I don't know how to get it to work. I've tried everything, and I have 3 minutes before the due date, so caching this :(

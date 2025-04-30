@@ -1,0 +1,3 @@
+1. The bug was that the two numbers were being read from their inputs as strings, not numbers. When adding them, they occasionally would add as numbers for some odd reason (which was not expected, I have no idea why it did that twice throughout my testing while still strings), but they typically would concatenate as strings. This led to things like `add('1', '-1') -> '1-1'`. This was not the expected behavior, they were expected to add as numbers.
+2. I would convert them both to numbers before adding them. The fix is as follows:
+![Fix: add Number()](/expand/screenshots/fix.png)
